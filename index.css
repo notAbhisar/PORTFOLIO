@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+DK+Loopet:wght@100..400&display=swap');
+
 :root{
     --black: #100B00;
     --green: #85CB33;
@@ -71,9 +73,14 @@ nav li a:active{
 
 
 .welcome div{
+    display: flex;
     width: 50%;
-   align-items: center;
+    justify-content: center;
+    font-family: "Playwrite DK Loopet";
+    font-weight: 300px;
+    font-size: 3em;
 }
 .welcome img{
-    max-height: 2em;
+    padding: 1em;
+    max-height: 6.5em;
 }
