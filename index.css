@@ -1,0 +1,79 @@
+:root{
+    --black: #100B00;
+    --green: #85CB33;
+    --nyanza: #EFFFC8;
+    --blue: #A5CBC3;
+    --brown: #3B341F;
+}
+
+body{
+    margin: 0%;
+    background-color: #100B00;
+    color: white;
+}
+
+header{
+    text-align: center;
+    background-color:#100B00;
+    font-family: 'Bodoni MT';
+    font-size: 2em;
+    margin: 1em 0;
+}
+
+
+nav ul {
+    font-family: 'Bodoni MT';
+    padding: 0;
+    display: flex;
+    list-style: none;
+}
+
+nav li{
+    width: 33%;
+    text-align: center;
+    font-size: 1.17em;
+}
+
+nav li a{
+    transition: .75s;
+    color:white;
+    background-color:#100B00;
+    border-style: solid;
+    border-radius: 1.5em;
+    border-color: #100B00;
+    padding: 0.25em .75em;
+    text-decoration: none;
+
+}
+
+nav li a:hover{
+    color: #100B00;
+    background-color: #85CB33;
+    border-color: #85CB33;
+    
+}
+
+nav li a:active{
+    color: #100B00;
+    background-color: #85CB33;
+    border-color: #85CB33;
+}
+
+.introduction {
+    background-color: #EFFFC8;
+    color:#100B00;
+
+}
+
+.welcome {
+    display: flex;
+}
+
+
+.welcome div{
+    width: 50%;
+   align-items: center;
+}
+.welcome img{
+    max-height: 2em;
+}
