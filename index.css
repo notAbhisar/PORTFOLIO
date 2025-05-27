@@ -19,8 +19,8 @@ header{
     text-align: center;
     background-color:#100B00;
     font-family: 'Bodoni MT';
-    font-size: 2em;
-    margin: 1em 0;
+    font-size: 2.5em;
+    margin: .75em 0;
 }
 
 
@@ -34,7 +34,7 @@ nav ul {
 nav li{
     width: 33%;
     text-align: center;
-    font-size: 1.17em;
+    font-size: 1.25em;
 }
 
 nav li a{
@@ -62,7 +62,7 @@ nav li a:active{
     border-color: #85CB33;
 }
 
-.introduction {
+.banner {
     background-color: #EFFFC8;
     color:#100B00;
 
@@ -94,6 +94,20 @@ nav li a:active{
 
 .profileimage img{
     padding: 1em;
-    max-height: 300px;
-    max-width: 300px;
+    max-height: 250px;
+    max-width: 250px;
+}
+
+.about{
+    background-color: white;
+    color:#100B00;
+    margin: 0;
+}
+
+.about h3{
+    margin: 0;
+    font-family: "Aboreto";
+    font-size: 1.75em;
+    text-align: center;
+    padding: 1em;
 }
